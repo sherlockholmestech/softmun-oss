@@ -129,7 +129,7 @@ const twoThirdsMajority = computed(() => {
 					v-if="currentUser == null"
 					color="neutral"
 					variant="outline"
-					to="/auth/login"
+					to="/auth/sign-in"
 					>Login</UButton
 				>
 				<CommitteeDropdown

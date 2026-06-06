@@ -4,7 +4,7 @@ import SyncStatusIndicator from "./components/SyncStatusIndicator.vue";
 import type { RouteLocationNormalizedLoaded } from "vue-router";
 
 function isPublicShellRoute(route: RouteLocationNormalizedLoaded) {
-	return ["/auth/login", "/auth/signup", "/auth/logout", "/"].includes(
+	return ["/auth/sign-in", "/auth/signup", "/auth/logout", "/"].includes(
 		route.path,
 	);
 }

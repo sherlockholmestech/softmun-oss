@@ -13,6 +13,6 @@ onMounted(handleLogout);
 			Thank you for using SoftMUN. You have successfully logged out of your
 			account.
 		</p>
-		<UButton label="Login Again" size="lg" as="NuxtLink" to="/auth/login" />
+		<UButton label="Login Again" size="lg" as="NuxtLink" to="/auth/sign-in" />
 	</div>
 </template>
