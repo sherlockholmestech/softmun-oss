@@ -1,0 +1,43 @@
+{
+	"name": "nuxt-app",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"test": "bun test",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"db:generate": "node scripts/db-command.mjs generate",
+		"db:migrate": "node scripts/db-command.mjs migrate",
+		"db:push": "node scripts/db-command.mjs push",
+		"db:check": "node scripts/db-command.mjs check",
+		"db:studio": "node scripts/db-command.mjs studio",
+		"db:seed": "node scripts/seed.mjs",
+		"format": "prettier --check .",
+		"format:fix": "prettier --write ."
+	},
+	"dependencies": {
+		"@neondatabase/serverless": "^1.1.0",
+		"@nuxt/eslint": "1.15.2",
+		"@nuxt/ui": "^4.7.1",
+		"@types/node": "^24.12.2",
+		"drizzle-orm": "^0.45.2",
+		"eslint": "^9.39.4",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.5.5",
+		"nuxt": "^4.4.6",
+		"prettier": "^3.8.3",
+		"tailwindcss": "^4.2.4",
+		"typescript": "^5.9.3",
+		"vue": "^3.5.33",
+		"vue-router": "^4.6.4",
+		"zod": "^4.3.6"
+	},
+	"devDependencies": {
+		"drizzle-kit": "^0.31.10"
+	}
+}
