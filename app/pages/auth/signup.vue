@@ -100,10 +100,9 @@ async function onSubmit() {
 				</UFormField>
 
 				<UFormField
-					v-if="requiresInviteCode"
 					label="Invite code"
 					name="inviteCode"
-					description="This instance requires an invite code to sign up."
+					description="Leave blank if this instance does not require an invite code."
 					class="w-full"
 				>
 					<UInput

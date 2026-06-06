@@ -69,6 +69,17 @@ async function onSubmit() {
 
 				<UButton type="submit" block>Login</UButton>
 			</UForm>
+
+			<USeparator class="my-6" label="or" />
+
+			<UButton
+				to="/auth/signup"
+				variant="outline"
+				block
+				icon="i-lucide-user-plus"
+			>
+				Sign Up
+			</UButton>
 		</UCard>
 	</div>
 </template>
